@@ -1,3 +1,4 @@
+
 //
 //  ViewController.swift
 //  TJPageView
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
         }
         
         let frame = CGRect(x: 0, y: 64, width: view.bounds.width, height: view.bounds.height - 64)
-        let pageView = TJPageView(frame: frame, titles: titles, childVcs: childVcs, parentVc: self, style: style)
+        let pageView = TJPageView(frame: frame, titles: titles, style: style, childVcs: childVcs, parentVc: self)
         view.addSubview(pageView)
     }
 
