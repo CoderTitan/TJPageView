@@ -19,8 +19,14 @@
 		6AED956F1EA1095D00520537 /* TJContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AED956E1EA1095D00520537 /* TJContentView.swift */; };
 		6AED95711EA1097300520537 /* TJTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AED95701EA1097300520537 /* TJTitleStyle.swift */; };
 		6AED95731EA1132100520537 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AED95721EA1132100520537 /* UIColor-Extension.swift */; };
+		FE1CC9A41EEEB5FE00D77172 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1CC9A31EEEB5FE00D77172 /* NextViewController.swift */; };
 		FE902E991EDEA43700308FF8 /* TJPageCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE902E981EDEA43700308FF8 /* TJPageCollectionLayout.swift */; };
 		FE902E9B1EDEA49D00308FF8 /* TJPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE902E9A1EDEA49D00308FF8 /* TJPageCollectionView.swift */; };
+		FED94D711EF0075B00FE0FDF /* EmoticonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED94D6E1EF0075B00FE0FDF /* EmoticonViewCell.swift */; };
+		FED94D721EF0075B00FE0FDF /* EmoticonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED94D6F1EF0075B00FE0FDF /* EmoticonViewCell.xib */; };
+		FED94D761EF0076E00FE0FDF /* EmotionPackages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED94D741EF0076E00FE0FDF /* EmotionPackages.swift */; };
+		FED94D7B1EF007BC00FE0FDF /* QHNormalEmotionSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = FED94D791EF007BC00FE0FDF /* QHNormalEmotionSort.plist */; };
+		FED94D7C1EF007BC00FE0FDF /* QHSohuGifSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = FED94D7A1EF007BC00FE0FDF /* QHSohuGifSort.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +65,14 @@
 		6AED956E1EA1095D00520537 /* TJContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJContentView.swift; sourceTree = "<group>"; };
 		6AED95701EA1097300520537 /* TJTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJTitleStyle.swift; sourceTree = "<group>"; };
 		6AED95721EA1132100520537 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		FE1CC9A31EEEB5FE00D77172 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		FE902E981EDEA43700308FF8 /* TJPageCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJPageCollectionLayout.swift; sourceTree = "<group>"; };
 		FE902E9A1EDEA49D00308FF8 /* TJPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJPageCollectionView.swift; sourceTree = "<group>"; };
+		FED94D6E1EF0075B00FE0FDF /* EmoticonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonViewCell.swift; sourceTree = "<group>"; };
+		FED94D6F1EF0075B00FE0FDF /* EmoticonViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmoticonViewCell.xib; sourceTree = "<group>"; };
+		FED94D741EF0076E00FE0FDF /* EmotionPackages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionPackages.swift; sourceTree = "<group>"; };
+		FED94D791EF007BC00FE0FDF /* QHNormalEmotionSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHNormalEmotionSort.plist; sourceTree = "<group>"; };
+		FED94D7A1EF007BC00FE0FDF /* QHSohuGifSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHSohuGifSort.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +126,13 @@
 				6AED95631EA106FC00520537 /* TJPageView */,
 				6AED95351E9FCC2500520537 /* AppDelegate.swift */,
 				6AED95371E9FCC2500520537 /* ViewController.swift */,
+				FE1CC9A31EEEB5FE00D77172 /* NextViewController.swift */,
 				6AED95721EA1132100520537 /* UIColor-Extension.swift */,
+				FED94D741EF0076E00FE0FDF /* EmotionPackages.swift */,
+				FED94D6E1EF0075B00FE0FDF /* EmoticonViewCell.swift */,
+				FED94D791EF007BC00FE0FDF /* QHNormalEmotionSort.plist */,
+				FED94D7A1EF007BC00FE0FDF /* QHSohuGifSort.plist */,
+				FED94D6F1EF0075B00FE0FDF /* EmoticonViewCell.xib */,
 				6AED95391E9FCC2500520537 /* Main.storyboard */,
 				6AED953C1E9FCC2500520537 /* Assets.xcassets */,
 				6AED953E1E9FCC2500520537 /* LaunchScreen.storyboard */,
@@ -263,6 +281,9 @@
 			files = (
 				6AED95401E9FCC2500520537 /* LaunchScreen.storyboard in Resources */,
 				6AED953D1E9FCC2500520537 /* Assets.xcassets in Resources */,
+				FED94D7B1EF007BC00FE0FDF /* QHNormalEmotionSort.plist in Resources */,
+				FED94D7C1EF007BC00FE0FDF /* QHSohuGifSort.plist in Resources */,
+				FED94D721EF0075B00FE0FDF /* EmoticonViewCell.xib in Resources */,
 				6AED953B1E9FCC2500520537 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,11 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED94D761EF0076E00FE0FDF /* EmotionPackages.swift in Sources */,
 				6AED95381E9FCC2500520537 /* ViewController.swift in Sources */,
+				FED94D711EF0075B00FE0FDF /* EmoticonViewCell.swift in Sources */,
 				FE902E9B1EDEA49D00308FF8 /* TJPageCollectionView.swift in Sources */,
 				6AED956F1EA1095D00520537 /* TJContentView.swift in Sources */,
 				6AED956B1EA1094800520537 /* TJPageView.swift in Sources */,
 				6AED95361E9FCC2500520537 /* AppDelegate.swift in Sources */,
+				FE1CC9A41EEEB5FE00D77172 /* NextViewController.swift in Sources */,
 				FE902E991EDEA43700308FF8 /* TJPageCollectionLayout.swift in Sources */,
 				6AED95711EA1097300520537 /* TJTitleStyle.swift in Sources */,
 				6AED95731EA1132100520537 /* UIColor-Extension.swift in Sources */,

@@ -14,6 +14,7 @@ protocol TJPageCollectionViewDateSource : class {
     func pageCollectionView(_ collectionView : TJPageCollectionView, numberOfItemsInSection section : Int) -> Int
     func pageCollectionView(_ pageCollectionView : TJPageCollectionView, _ collectionView : UICollectionView, cellForItemAt indexPath : IndexPath) -> UICollectionViewCell
 }
+
 protocol TJPageCollectionViewDelegate : class {
     func pageCollectionView(_ pageCollectionView : TJPageCollectionView, didSelectorItemAt indexPath : IndexPath)
 }
