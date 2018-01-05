@@ -19,8 +19,8 @@ class ViewController: UIViewController {
 //        view.backgroundColor = UIColor.red
         automaticallyAdjustsScrollViewInsets = false
         
-        let titles = ["游戏","娱乐","音乐","电影","滑稽","话剧"]
-//        let titles = ["游戏大王","赞","音乐痴","电影迷","滑稽","话剧","游戏大王","娱乐大修娱乐大修","音乐痴音乐","电影迷电影迷","滑稽音乐痴音乐","话剧"]
+//        let titles = ["游戏","娱乐","音乐","电影","滑稽","话剧"]
+        let titles = ["游戏大王","赞","音乐痴","电影迷","滑稽","话剧","游戏大王","娱乐大修娱乐大修","音乐痴音乐","电影迷电影迷","滑稽音乐痴音乐","话剧"]
         
         let style  = TJTitleStyle()
         style.isScrollEnable = true
@@ -46,12 +46,6 @@ class ViewController: UIViewController {
         let pageView = TJPageView(frame: frame, titles: titles, style: style, childVcs: childVcs, parentVc: self)
         view.addSubview(pageView)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
     @objc fileprivate func nextClick(){
         navigationController?.pushViewController(NextViewController(), animated: true)
